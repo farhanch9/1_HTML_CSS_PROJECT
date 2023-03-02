@@ -1,0 +1,354 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero{
+    background-image:url(./pics/omar-.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    /* background-image: linear-gradient(rgb(0,0,0,0,6)); */
+}
+
+.info h1{
+    font-family: 'Times New Roman';
+    text-transform: capitalize;
+    width: 460px;
+    color:black;
+    font-size: 50px;
+}
+h3{
+    font-family: Georgia, 'Times New Roman';
+    color:slategrey;
+    font-size:60px;
+}
+button{
+    position: absolute;
+    top: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color:cornflowerblue;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 50px;
+    text-decoration:none;
+    font-family: barlow condensed,sans-serif;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+button:hover{
+    background-color: black;
+}
+.info{
+    position: absolute;
+    top:30%;
+    left: 6%;
+}
+.icon{
+    position: absolute;
+    right: 10%;
+    letter-spacing: 10px;
+}
+.icon:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:40px;
+    padding-left:3%;
+    padding-right: 45%;    
+}
+.logo{
+    color: black;
+    font-size: 18px;
+}
+nav ul li{
+    list-style-type:none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight:bold;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    border-radius: 50px;
+}
+/* Banner styling */
+.banner1{
+    position: absolute;
+    left: 10%;
+    top: 110%;
+    border: 2px solid whitesmoke;
+}
+h4{
+    color: black;
+    position: absolute;
+    left: 6%;
+    top: 10%;
+    border: 1px;
+    font-size: 40px;
+    font-family: barlow condensed,sans-serif;
+    font-weight: normal;
+}
+.banner1 p{
+    color:black;
+    position: absolute;
+    left: 10%;
+    top: 34%;
+}
+.banner2{
+    position: absolute;
+    left: 37%;
+    top: 110%;
+    border: 2px solid whitesmoke;
+}
+.banner2 h2{
+    position: absolute;
+    color:black;
+    left: 8%;
+    top: 10%;
+    font-size: 50%;
+    border: 1%;
+    font-size: 40px;
+    font-family: barlow condensed,sans-serif;
+    font-weight: normal;
+}
+.banner2 p{
+    position: absolute;
+    color: black;
+    left:10%;
+    top: 33%;
+}
+
+.banner3{
+    position: absolute;
+    left: 65%;
+    top: 110%;
+    border: 2px solid whitesmoke;
+}
+.banner3 h4{
+    position: absolute;
+    color:black;
+    left: 6%;
+    top: 10%;
+    font-size: 50%;
+    border: 1%;
+    font-size: 30px;
+    font-family: barlow condensed,sans-serif;
+    font-weight: normal;
+}
+.banner3 p{
+    position: absolute;
+    color: black;
+    left:11%;
+    top: 32%;
+}
+/* Product Styling */
+.over h2{
+    position: absolute;
+    color: black;
+    font-size: 35px;
+    top: 153%;
+    left: 10%;
+}
+
+.over{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:390px;
+    padding-left:8.8%;
+    padding-right: 10%;    
+}
+.over{
+    color: black;
+    font-size: 18px;
+}
+.over ul li{
+    list-style-type:none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.over ul li a{
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+}
+.over ul li:hover{
+    /* background-color: aquamarine; */
+    text-decoration: underline;
+    border-radius: 50px;
+}
+
+.prod1{
+    position: absolute;
+    left: 10%;
+    top: 174%;
+    border: 2px solid whitesmoke;
+}
+/* Shop Styling */
+section{
+    padding: 100px 8%;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1%));
+    align-items: center;
+    gap: 1rem;
+    text-align: left;
+    cursor: pointer;
+}
+.box{
+    padding: 0px 20px 10px 20px;
+    background: transparent;
+    box-shadow: 5px 30px 56.1276px rgb(55, 55,55 / 12%);
+    border-radius: 10px;
+    position: relative;
+    transition: all .35s ease;
+}
+.box:hover{
+    transform: translateY(-5px);
+}
+.box img{
+    width: 100%;
+    height: auto;
+}
+.box h1{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heart{
+    position: absolute;
+    right: 6%;
+    top: 91%;
+    letter-spacing: 10px;
+}
+/* Button2 Styling */
+.button-2{
+    position: absolute;
+    left: 45%;
+    top: 403%;
+    font-size: large;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+.button-2:hover{
+    background-color:black;
+}
+.container-2{
+    max-width:auto;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer ul{
+    list-style: none;
+}
+.footer{
+    background-color: #24262b;
+    padding: 50px 0;
+}
+.footer-col{
+    width: 22%;
+    padding: 0 15px;
+}
+.footer-col h5{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom:20px;
+    margin-left: 110px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col ul li a{
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 110px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all .3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.social-links{
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 105px;
+}
+.footer-col p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-left: 105px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+.form{
+    padding-bottom: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 5px solid red;
+    margin-bottom: 50px;
+}
+form input{
+    width: 250px;
+    height: 45px;
+    border: 15px;
+    background: transparent;
+    text-align: center;
+    margin-top: 1px;
+    margin-left: 50px;
+    margin-bottom: 1px;
+    outline: none;
+    border: none;
+}
+.button-3{
+    position: absolute;
+    left: 75%;
+    top: 437%;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+button-3:hover{
+    background-color: black;
+}
